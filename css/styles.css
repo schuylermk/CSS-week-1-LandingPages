@@ -1,0 +1,40 @@
+
+
+.navigation {
+  height:25px;
+  width: 98%;
+  padding:15px;
+  /*background-color: black;*/
+  font-weight: bold;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+body {
+  background-image: url(../img/chile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav {
+  float: right;
+  padding-right: 15px;
+
+}
+
+.nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fff2e5;
+  font-family: 'Roboto Mono', ;
+}
+
+.center-icon img {
+  display: block;
+  text-align: center;
+  clear: both;
+  margin-top: 25%;  
+  margin-left: auto;
+  margin-right: auto;
+}

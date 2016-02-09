@@ -1,4 +1,10 @@
-
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 .navigation {
   height:25px;
@@ -30,11 +36,22 @@ body {
   font-family: 'Roboto Mono', ;
 }
 
-.center-icon img {
+.center-icon {
   display: block;
   text-align: center;
   clear: both;
-  margin-top: 25%;  
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto 0 auto 0;
+}
+
+.center-icon img{
+  max-width: 160px;
+  padding-top: 21%;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 150px;
+  color: #333333;
+  font-family: 'Roboto Mono';
+  margin-top: 185px;
 }
